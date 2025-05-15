@@ -1,0 +1,50 @@
+#h1{
+    color: blue;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0, 1);
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(Image/7892917.jpg);
+}
+header{
+    width: 100%;
+    background-color: black;
+    color: wheat;
+}
+.img1{
+    width: 400px;
+    height: 250px;
+    text-align: left;
+    float: left;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 1);
+    border: 2px solid rgb(0, 0, 0, 1)
+}
+h2{
+    color: antiquewhite;
+}
+body{
+    color: grey;
+}
+#p1{
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    font-family: "Poppins", sans-serif;
+}
+.fa-brands{
+    size: 10px;
+    font-size: 50px;
+    color: blue;
+}
+a{
+    color: blue;
+    text-decoration: solid;
+    background-color: black;
+}
+a:hover{
+    color: white;
+    background-color: blue;
+}

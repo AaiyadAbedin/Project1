@@ -1,0 +1,127 @@
+/* Header Start */
+header{
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    display: flexbox;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+}
+h2{
+    color: brown;
+}
+body{
+    color: grey;
+}
+#p1{
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 200px;
+    border: 2px solid #fff;
+    height: 80px;
+    text-align: center;
+    float: left;
+    line-height: 70px;
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flexbox;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.2s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/* Header End*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    height: 100%;
+    overflow-x: hidden;
+}
+.signup{
+    color: bisque;
+}
+.form{
+    background-color:  crimson;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.form input{
+    padding: 5px 50px;
+    background-color: beige;
+    border-radius: 50px;
+}
+/* Footer Start*/
+footer {
+    height: 100px;
+    position: relative;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.name h2{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: bold;
+    font-size:300px;
+}
+.text p{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+}
+.social-media-links{
+    background-color: black;
+    font-size: 35px;
+}
+.copyright {
+    background-color: black;
+}
+/* Footer End*/
